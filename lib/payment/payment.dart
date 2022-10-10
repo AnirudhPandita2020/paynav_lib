@@ -4,7 +4,7 @@ import 'package:paynav_lib/payment/model/payuparam_sdk.dart';
 import 'package:paynav_lib/payment/payment_callback.dart';
 
 class PayuPayment{
-  static const _channel = MethodChannel("com.paynav.flutter/payment");
+  static const _channel = MethodChannel("com.paynav.flutter/native");
 
   static Future<void> makePayment(
       PayuParamSdk payuParamSdk, PayUCallback callback) async {
